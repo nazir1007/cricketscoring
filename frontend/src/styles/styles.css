@@ -1,0 +1,45 @@
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background: lightgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.active {
+    background: green;
+    color: white;
+  }
+  
+  .btn.toggle {
+    background-color: orange;
+    margin-top: 10px;
+  }
+  
+  .btn.submit {
+    background-color: #007bff;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .scorecard {
+    background: #f8f8f8;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
